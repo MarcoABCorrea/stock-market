@@ -1,2 +1,7 @@
-# stock-market
-Stock Market Recommender app based on social media posts
+# Scaffold / Boilerplate
+
+This project contains a base project using the following stack:
+
+* Angular 7
+* Flex Layout
+* Angular Material

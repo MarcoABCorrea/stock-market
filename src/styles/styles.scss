@@ -1,0 +1,287 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'custom-material-theme.scss';
+
+//Typography 
+html, div, span {
+    font-family: Roboto;
+    font-size: $g-font-size;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0; // might come from a global reset
+}
+
+.heading-title {
+    font-size: $g-spacing-large;
+}
+
+.heading-subtitle {
+    font-size: $g-spacing;
+    margin-bottom: $g-spacing-small;
+}
+
+.caption {
+    color: mat-color($custom-grey);
+    font-size: 13px;
+}
+
+.grey {
+    color: mat-color($custom-grey);
+}
+
+html, body {
+    height: 100%;
+}
+
+.logo img {
+    width: 155px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.add-remove {
+    color: #adadad;
+}
+
+.priority-icon {
+    color:gold;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.concat div {
+    overflow: hidden; 
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: inherit;
+}
+
+.no-border {
+    border: none;
+}
+.no-padding {
+    padding: 9.5px 0px 9.5px 0px
+}
+
+.horizontal-line {
+    border-top: thin solid lightgrey;
+}
+
+.custom-toolbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-after-load {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    background-color: mat-color($custom-primary);
+    padding: 0 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.side-nav-group {
+    color: #aeaeae;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+
+.side-nav-custom-folder {
+    display: inline;
+}
+.nav-text {
+    display: inline-block;
+    width:120px;
+    height: 18px;
+    margin: 0px;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
+.nav-badge {
+    display: inline-block;    
+    height: 18px;
+    margin: 0px;    
+}
+
+.no-left-padding {
+    padding-left: 0px;
+}
+
+@media (min-width: 768px) {
+   .content-canvas {
+       padding-right: 40px;
+       padding-top: 90px;
+   }
+}
+
+
+.top-nav {
+    z-index: 1000;
+}
+
+.custom-toolbar {
+    padding-bottom: 20px;   
+}
+
+.file-info {
+    display: inline-block;
+    width:400px;
+    height: 18px;
+    margin: 0px;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+}
+.mat-tab-label {
+    height: 30px!important;    
+}
+
+
+
+.mat-tab-header {
+    border-top: none!important;
+    border-bottom: none!important;
+}
+
+
+
+$comment-body-color : #fff8e1;
+
+.comment-body {
+    background-color: $comment-body-color;
+}
+
+
+
+pre {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+    background-color: transparent;    
+    border: none;      
+}
+
+textarea {
+    resize: vertical;
+}
+
+.message * {
+    font-size: 14px !important;
+}
+
+.h-spacing {
+    margin-left: 5px;
+}
+
+.h-spacing-large {
+    margin-left: 10px;
+}
+
+.h-spacing-xlarge {
+    margin-left: 20px;
+}
+
+.v-spacing {
+    margin-top: $g-spacing;
+}
+
+.v-spacing-large {
+    margin-top: $g-spacing-large;
+}
+
+.container-padded {
+    padding: $g-spacing-large;    
+}
+
+.container-h-padding {
+    padding-left: $g-spacing-large;    
+    padding-right: $g-spacing-large;    
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color:  mat-color($custom-grey);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.button-container button {
+    margin-left: $g-spacing-small;
+}
+
+.max-width {
+    max-width: 250px;
+    text-overflow: ellipsis;
+    overflow:hidden
+}
+
+.vertical-form-field-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.vertical-form-field-container > * {
+    width: 100%;
+  }
+
+.mat-form-field.mat-form-field {
+    width: 95%;
+}
+
+a {
+    color: mat-color($custom-primary);
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+} 
+
+.active a {
+    color: mat-color($custom-accent);
+    text-decoration: underline;    
+}
+
+
+.btn-min-width {
+  min-width: 20px!important;   
+}
+
+td {
+    vertical-align: middle !important;
+}

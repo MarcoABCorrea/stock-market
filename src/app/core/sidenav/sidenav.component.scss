@@ -1,0 +1,65 @@
+@import "../../../styles/custom-material-theme";
+
+:host /deep/ {
+
+  .list-text {
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px;
+    text-overflow: ellipsis;
+  }
+
+  mat-icon {
+    margin-right: 0px;
+    color: mat_color($custom-grey, 600);
+  }
+
+  .mat-list-item {
+    color: mat_color($custom-grey, 800);
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+
+    .list-item{
+      width: 100%;
+
+      .badge {
+        color: mat_color($custom-grey, 800);
+        background-color: mat_color($custom-grey, 300);
+        margin-right: 2px;
+        font-weight: normal;
+        font-size: 14px;
+        padding: 6px;
+        border-radius: 15px;
+        min-width: 27px;
+      }
+    }
+
+    &.active {
+      background: mat_color($custom-grey, 300);      
+      font-weight: bold;
+
+      mat-icon {
+        color: mat_color($custom-primary);
+      }
+
+      .badge {
+        background-color: mat_color($custom-primary);
+        color: white;
+      }
+    }
+  }
+
+  .subheader {
+    color: mat_color($custom-grey, 600);
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+
+    mat-icon {
+      margin: 0;
+    }
+  }
+}

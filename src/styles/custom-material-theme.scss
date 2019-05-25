@@ -1,0 +1,62 @@
+@import "~@angular/material/theming";
+
+//Typography
+$g-font-size: 14px;
+$custom-typography: mat-typography-config();
+
+@include mat-core($custom-typography);
+
+$config: mat-typography-config();
+
+//Spacing
+$g-spacing: $g-font-size !default;
+
+// Decrease
+$g-spacing-small: floor($g-spacing - 4) !default;
+$g-spacing-x-small: floor($g-spacing / 2) !default;
+$g-spacing-2x-small: floor($g-spacing / 4) !default;
+
+// Increase
+$g-spacing-large: ceil($g-spacing / 2 * 3) !default;
+$g-spacing-x-large: ceil($g-spacing / 2 * 4) !default;
+$g-spacing-2x-large: ceil($g-spacing / 2 * 5) !default;
+$g-spacing-3x-large: ceil($g-spacing / 2 * 6) !default;
+$g-spacing-4x-large: ceil($g-spacing / 2 * 7) !default;
+$g-spacing-5x-large: ceil($g-spacing / 2 * 9) !default;
+$g-spacing-6x-large: ceil($g-spacing / 2 * 12) !default;
+
+//Color
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue.
+$custom-primary: mat-palette($mat-grey, 800);
+$custom-accent: mat-palette($mat-grey, 200);
+
+$custom-grey: mat-palette($mat-grey, 600);
+$custom-background: mat-palette($mat-grey, 200);
+
+$custom-font-color: mat-palette($mat-green, 900);
+
+// The warn palette is optional (defaults to red).
+$custom-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$custom-theme: mat-light-theme($custom-primary, $custom-accent, $custom-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($custom-theme);
+
+// Override options `font-size`
+.mat-select-panel .mat-optgroup-label,
+.mat-select-panel .mat-option {
+  font-size: mat-font-size($custom-typography, subheading-1) !important;
+}
+
+@mixin md-icon-size($size: 24px) {
+  font-size: $size;
+  height: $size;
+  width: $size;
+  line-height: $size;
+}
