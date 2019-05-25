@@ -1,20 +1,18 @@
-import { Component } from '@angular/core';
-import { NavBarService } from 'app/shared/nav-bar.service';
-import { Observable } from 'rxjs';
+import { Component } from "@angular/core";
+import { NavBarService } from "app/shared/nav-bar.service";
+import { Observable } from "rxjs";
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: 'navbar.component.html',
-  styleUrls: ['navbar.component.scss']
+  selector: "app-navbar",
+  templateUrl: "navbar.component.html",
+  styleUrls: ["navbar.component.scss"]
 })
 export class NavbarComponent {
+  showNavBar$: Observable<boolean>;
 
-  showNavBar$: Observable<boolean>;;
+  constructor(private navBarService: NavBarService) {}
 
-  constructor(private navBarService: NavBarService) {
-  }
-
-  ngOnInit(){
+  ngOnInit() {
     this.showNavBar$ = this.navBarService.showNavBar$;
   }
 

@@ -1,0 +1,26 @@
+@import "../../../styles/custom-material-theme.scss";
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 95%;
+  margin: 10px 0 0 20px;
+}
+
+/deep/ .mat-paginator-page-size-label {
+  width: 100%;
+}
+
+.mat-row {
+  cursor: pointer;
+  &:hover {
+    background-color: mat_color($custom-accent);
+  }
+}
+
+td.mat-cell {
+  padding-top: 5px;
+}

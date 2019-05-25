@@ -1,0 +1,297 @@
+[
+  { "companyName": "Apple Inc.", "symbol": "AAPL", "price": "77.43" },
+  {
+    "companyName": "Avalanche Biotechnologies, Inc.",
+    "symbol": "AAVL",
+    "price": "76.22"
+  },
+  {
+    "companyName": "Gaming and Leisure Properties, Inc.",
+    "symbol": "GLPI",
+    "price": "15.40"
+  },
+  {
+    "companyName": "Greenlight Reinsurance, Ltd.",
+    "symbol": "GLRE",
+    "price": "94.63"
+  },
+  { "companyName": "Google Inc.", "symbol": "GOOG", "price": "100.28" },
+  {
+    "companyName": "Gulfport Energy Corporation",
+    "symbol": "GPOR",
+    "price": "53.44"
+  },
+  { "companyName": "Green Plains, Inc.", "symbol": "GPRE", "price": "55.99" },
+  { "companyName": "GoPro, Inc.", "symbol": "GPRO", "price": "73.93" },
+  {
+    "companyName": "Green Brick Partners, Inc.",
+    "symbol": "GRBK",
+    "price": "46.32"
+  },
+  { "companyName": "Grifols, S.A.", "symbol": "GRFS", "price": "33.90" },
+  {
+    "companyName": "Ingles Markets, Incorporated",
+    "symbol": "IMKTA",
+    "price": "21.27"
+  },
+  {
+    "companyName": "Immersion Corporation",
+    "symbol": "IMMR",
+    "price": "26.76"
+  },
+  { "companyName": "Immunomedics, Inc.", "symbol": "IMMU", "price": "87.11" },
+  {
+    "companyName": "Imprimis Pharmaceuticals, Inc.",
+    "symbol": "IMMY",
+    "price": "11.99"
+  },
+  {
+    "companyName": "Immune Pharmaceuticals Inc.",
+    "symbol": "IMNP",
+    "price": "77.71"
+  },
+  {
+    "companyName": "ChipMOS TECHNOLOGIES (Bermuda) LTD.",
+    "symbol": "IMOS",
+    "price": "21.37"
+  },
+  { "companyName": "Imris Inc", "symbol": "IMRS", "price": "57.57" },
+  { "companyName": "Internap Corporation", "symbol": "INAP", "price": "32.08" },
+  {
+    "companyName": "First Internet Bancorp",
+    "symbol": "INBK",
+    "price": "12.77"
+  },
+  {
+    "companyName": "INC Research Holdings, Inc.",
+    "symbol": "INCR",
+    "price": "61.84"
+  },
+  { "companyName": "Incyte Corporation", "symbol": "INCY", "price": "77.75" },
+  {
+    "companyName": "Independent Bank Corp.",
+    "symbol": "INDB",
+    "price": "81.51"
+  },
+  {
+    "companyName": "iShares S&P India Nifty 50 Index Fund",
+    "symbol": "INDY",
+    "price": "14.66"
+  },
+  {
+    "companyName": "Informatica Corporation",
+    "symbol": "INFA",
+    "price": "59.28"
+  },
+  {
+    "companyName": "Infinity Pharmaceuticals, Inc.",
+    "symbol": "INFI",
+    "price": "52.65"
+  },
+  { "companyName": "Infinera Corporation", "symbol": "INFN", "price": "11.74" },
+  { "companyName": "Inogen, Inc", "symbol": "INGN", "price": "88.76" },
+  {
+    "companyName": "Interactive Intelligence Group, Inc.",
+    "symbol": "ININ",
+    "price": "93.24"
+  },
+  { "companyName": "Innocoll AG", "symbol": "INNL", "price": "75.17" },
+  {
+    "companyName": "Inovio Pharmaceuticals, Inc.",
+    "symbol": "INO",
+    "price": "35.79"
+  },
+  { "companyName": "Innodata Inc.", "symbol": "INOD", "price": "49.28" },
+  {
+    "companyName": "Interphase Corporation",
+    "symbol": "INPH",
+    "price": "36.67"
+  },
+  { "companyName": "Insmed, Inc.", "symbol": "INSM", "price": "59.09" },
+  {
+    "companyName": "Insys Therapeutics, Inc.",
+    "symbol": "INSY",
+    "price": "48.75"
+  },
+  { "companyName": "Intel Corporation", "symbol": "INTC", "price": "48.98" },
+  {
+    "companyName": "The Intergroup Corporation",
+    "symbol": "INTG",
+    "price": "42.09"
+  },
+  { "companyName": "INTL FCStone Inc.", "symbol": "INTL", "price": "60.66" },
+  { "companyName": "Liberty Global plc", "symbol": "LBTYA", "price": "73.62" },
+  {
+    "companyName": "Lionbridge Technologies, Inc.",
+    "symbol": "LIOX",
+    "price": "72.00"
+  },
+  {
+    "companyName": "Liquid Holdings Group, Inc.",
+    "symbol": "LIQD",
+    "price": "7.10"
+  },
+  { "companyName": "Limoneira Co", "symbol": "LMNR", "price": "65.45" },
+  { "companyName": "Lumenis Ltd.", "symbol": "LMNS", "price": "41.27" },
+  { "companyName": "Luminex Corporation", "symbol": "LMNX", "price": "15.28" },
+  {
+    "companyName": "Loral Space and Communications, Inc.",
+    "symbol": "LORL",
+    "price": "82.28"
+  },
+  { "companyName": "Loxo Oncology, Inc.", "symbol": "LOXO", "price": "48.83" },
+  { "companyName": "Lipocine Inc.", "symbol": "LPCN", "price": "99.60" },
+  {
+    "companyName": "Life Partners Holdings Inc",
+    "symbol": "LPHI",
+    "price": "48.61"
+  },
+  {
+    "companyName": "Matthews International Corporation",
+    "symbol": "MATW",
+    "price": "37.18"
+  },
+  {
+    "companyName": "Mountain Province Diamonds Inc.",
+    "symbol": "MDM",
+    "price": "28.31"
+  },
+  {
+    "companyName": "Allscripts Healthcare Solutions, Inc.",
+    "symbol": "MDRX",
+    "price": "11.23"
+  },
+  {
+    "companyName": "Medidata Solutions, Inc.",
+    "symbol": "MDSO",
+    "price": "33.41"
+  },
+  {
+    "companyName": "BluePhoenix Solutions, Ltd.",
+    "symbol": "MDSY",
+    "price": "17.51"
+  },
+  { "companyName": "Medivation, Inc.", "symbol": "MDVN", "price": "67.52" },
+  { "companyName": "Medovex Corp.", "symbol": "MDVXU", "price": "68.30" },
+  { "companyName": "MediWound Ltd.", "symbol": "MDWD", "price": "34.84" },
+  { "companyName": "MiMedx Group, Inc", "symbol": "MDXG", "price": "12.67" },
+  { "companyName": "MeetMe, Inc.", "symbol": "MEET", "price": "28.20" },
+  {
+    "companyName": "Methes Energies International Ltd",
+    "symbol": "MEIL",
+    "price": "44.37"
+  },
+  { "companyName": "MEI Pharma, Inc.", "symbol": "MEIP", "price": "26.51" },
+  { "companyName": "MELA Sciences, Inc", "symbol": "MELA", "price": "96.90" },
+  { "companyName": "MercadoLibre, Inc.", "symbol": "MELI", "price": "76.25" },
+  { "companyName": "Melrose Bancorp, Inc.", "symbol": "MELR", "price": "9.12" },
+  {
+    "companyName": "Memorial Production Partners LP",
+    "symbol": "MEMP",
+    "price": "59.50"
+  },
+  {
+    "companyName": "Mentor Graphics Corporation",
+    "symbol": "MENT",
+    "price": "31.88"
+  },
+  { "companyName": "Methanex Corporation", "symbol": "MEOH", "price": "64.50" },
+  {
+    "companyName": "Mercer International Inc.",
+    "symbol": "MERC",
+    "price": "5.14"
+  },
+  { "companyName": "Meru Networks, Inc.", "symbol": "MERU", "price": "5.02" },
+  { "companyName": "Metro Bancorp, Inc", "symbol": "METR", "price": "56.65" },
+  {
+    "companyName": "MicroFinancial Incorporated",
+    "symbol": "MFI",
+    "price": "67.23"
+  },
+  { "companyName": "Multi", "symbol": "MFLX", "price": "48.14" },
+  {
+    "companyName": "Mackinac Financial Corporation",
+    "symbol": "MFNC",
+    "price": "25.84"
+  },
+  { "companyName": "MFRI, Inc.", "symbol": "MFRI", "price": "91.18" },
+  {
+    "companyName": "Minerva Neurosciences, Inc",
+    "symbol": "NERV",
+    "price": "88.96"
+  },
+  { "companyName": "Net Element, Inc.", "symbol": "NETE", "price": "82.43" },
+  { "companyName": "Newport Corporation", "symbol": "NEWP", "price": "35.82" },
+  {
+    "companyName": "NewStar Financial, Inc.",
+    "symbol": "NEWS",
+    "price": "76.94"
+  },
+  {
+    "companyName": "Newtek Business Services Corp.",
+    "symbol": "NEWT",
+    "price": "70.36"
+  },
+  {
+    "companyName": "Northfield Bancorp, Inc.",
+    "symbol": "NFBK",
+    "price": "68.90"
+  },
+  {
+    "companyName": "NF Energy Saving Corporation",
+    "symbol": "NFEC",
+    "price": "9.54"
+  },
+  { "companyName": "Netflix, Inc.", "symbol": "NFLX", "price": "9.03" },
+  {
+    "companyName": "National Research Corporation",
+    "symbol": "NRCIB",
+    "price": "31.02"
+  },
+  { "companyName": "Northrim BanCorp Inc", "symbol": "NRIM", "price": "88.06" },
+  { "companyName": "NephroGenex, Inc.", "symbol": "NRX", "price": "92.78" },
+  { "companyName": "NetEase, Inc.", "symbol": "NTES", "price": "27.22" },
+  {
+    "companyName": "Ophthotech Corporation",
+    "symbol": "OPHT",
+    "price": "29.53"
+  },
+  { "companyName": "OSI Systems, Inc.", "symbol": "OSIS", "price": "91.16" },
+  {
+    "companyName": "Pacira Pharmaceuticals, Inc.",
+    "symbol": "PCRX",
+    "price": "39.66"
+  },
+  { "companyName": "PC", "symbol": "PCTI", "price": "96.91" },
+  {
+    "companyName": "Paylocity Holding Corporation",
+    "symbol": "PCTY",
+    "price": "13.65"
+  },
+  { "companyName": "Pharmacyclics, Inc.", "symbol": "PCYC", "price": "34.42" },
+  {
+    "companyName": "Park City Group, Inc.",
+    "symbol": "PCYG",
+    "price": "47.23"
+  },
+  {
+    "companyName": "Quality Distribution, Inc.",
+    "symbol": "QLTY",
+    "price": "97.20"
+  },
+  { "companyName": "Qualys, Inc.", "symbol": "QLYS", "price": "49.82" },
+  {
+    "companyName": "Southern First Bancshares, Inc.",
+    "symbol": "SFST",
+    "price": "30.38"
+  },
+  {
+    "companyName": "SFX Entertainment, Inc.",
+    "symbol": "SFXE",
+    "price": "38.25"
+  },
+  { "companyName": "Zynga Inc.", "symbol": "ZNGA", "price": "35.93" },
+  { "companyName": "ZS Pharma, Inc.", "symbol": "ZSPH", "price": "57.10" },
+  { "companyName": "zulily, inc.", "symbol": "ZU", "price": "47.40" },
+  { "companyName": "Zumiez Inc.", "symbol": "ZUMZ", "price": "8.45" }
+]
