@@ -1,7 +1,36 @@
-# Scaffold / Boilerplate
+# Stock Market Recommender
 
-This project contains a base project using the following stack:
+This App emulates a Behavioral Finance site based on social media posts
+
+## Stack & Components
 
 * Angular 7
-* Flex Layout
 * Angular Material
+* Flex Layout
+
+## Setup
+
+In order to setup the Angular application just run the following command from root folder
+
+```bash
+npm install
+```
+
+to download all dependencies
+
+## Development server
+
+Start the server:
+```sh
+$ ng serve
+```
+
+Navigate to `http://localhost:4200/`
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
