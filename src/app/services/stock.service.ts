@@ -18,11 +18,7 @@ export class StockService {
     return this.http.get("./assets/stock-symbols.json");
   }
 
-  public search(
-    stock: Stock,
-    startDate: moment.Moment,
-    endDate: moment.Moment
-  ): any {
+  public search(startDate: moment.Moment, endDate: moment.Moment): any {
     let diff = endDate.diff(startDate, "days");
 
     let dates = [];
@@ -43,9 +39,9 @@ export class StockService {
 
   stockPriceGenerator(dates: Date[]): Array<Stock> {
     let stocks = [] as Array<Stock>;
-    dates.map(d => {
+    dates.map(date => {
       let stock = new Stock();
-      stock.date = d;
+      stock.date = date;
       stock.price = this.getRandomFloat(60, 30);
       stocks.push(stock);
     });

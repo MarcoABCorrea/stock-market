@@ -7,6 +7,8 @@ This App emulates a Behavioral Finance site based on social media posts
 * Angular 7
 * Angular Material
 * Flex Layout
+* Moment.js
+* NG2 Chart (Chart.js)
 
 ## Setup
 

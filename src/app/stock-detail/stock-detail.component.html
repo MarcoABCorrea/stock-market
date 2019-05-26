@@ -45,6 +45,14 @@
   </mat-card>
 
   <mat-card *ngIf="recommendation" class="recommendation">
+    <canvas
+      id="chart"
+      baseChart
+      [datasets]="chartData"
+      [options]="chartOptions"
+      [chartType]="'line'"
+    >
+    </canvas>
     Recomendation:
     <span
       [ngClass]="{

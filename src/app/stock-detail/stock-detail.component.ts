@@ -19,6 +19,13 @@ export class StockDetailComponent implements OnInit {
   endDate: Date;
   recommendation: string;
 
+  //chart
+  chartData = [];
+  chartOptions = {
+    scaleShowVerticalLines: true,
+    responsive: true
+  };
+
   constructor(
     private route: ActivatedRoute,
     private location: Location,
@@ -51,8 +58,11 @@ export class StockDetailComponent implements OnInit {
       const endDate = moment(this.endDate);
 
       if (startDate.isBefore(endDate)) {
-        let result = this.stockService.search(this.stock, startDate, endDate);
+        let result = this.stockService.search(startDate, endDate);
         this.recommendation = Recommendation[result["recommendation"]];
+
+        let data = result["stocks"].map(stock => stock.price);
+        this.chartData = [{ data: data, label: this.stock.companyName }];
       }
     }
   }
