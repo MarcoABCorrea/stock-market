@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
-  goToDetails(row) {
+  goToDetails(row:any) {
     this.router.navigate(["/stock/detail", row.symbol]);
   }
 }
